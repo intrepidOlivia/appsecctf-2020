@@ -1,0 +1,56 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECEFF1;
+    font-family: 'Montserrat';
+}
+
+.main-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.header {
+    font-size: 48px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.header .logo-pg {
+    color: #3F51B5;
+}
+
+.header .logo-ui {
+    color: #455A64;
+}
+
+
+.login {
+    flex-grow: 1;
+    margin-top: 32px;
+}
+
+.login #login-form {
+    background: #CFD8DC;
+    border-radius: 2px;
+    padding: 12px;
+    min-width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login #login-form>*:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.login #login-form .login-message {
+    font-size: 24px;
+}
+
+.login #login-form>input {
+    font-size: 16px;
+}
